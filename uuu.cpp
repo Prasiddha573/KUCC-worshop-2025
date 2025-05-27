@@ -1,5 +1,5 @@
 #include <iostream>
-#include<iomanip>
+#include <iomanip>
 void show_balance(double balance);
 double deposit();
 double withdraw(double balance);
@@ -43,9 +43,9 @@ void show_balance(double balance)
 }
 double deposit()
 {
-    double amount=0;
-    cout<<"enter amount to be deposited"<<endl;
-    cin>>amount;
+    double amount = 0;
+    cout << "enter amount to be deposited" << endl;
+    cin >> amount;
     return amount;
 }
 double withdraw(double balance)
